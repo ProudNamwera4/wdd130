@@ -8,8 +8,6 @@
     font-size: 2em;
     margin-top: 10px;
 }
-
-
 .content {
     max-width: 1600px;
     margin: 0 auto; 
@@ -22,7 +20,6 @@ nav a{
 #hero-img{
    width: 100%;
     display: block;
-
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
