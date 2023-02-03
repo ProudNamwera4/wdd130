@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-  }
+}
 .home-title {
     font-family: "Fugaz One", Macondo, Acme ;
     font-size: 2em;
@@ -16,10 +16,6 @@ nav a{
     text-align: center;
     text-decoration: none;
     padding: 35px;
-}
-#hero-img{
-   width: 100%;
-    display: block;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
