@@ -1,0 +1,11 @@
+.first_image {
+    display: block;
+    width: 100%;
+}
+body {
+    background-color: grey;
+}
+.bottom_images{
+    width: 20% ;
+    padding: 95px;
+}
