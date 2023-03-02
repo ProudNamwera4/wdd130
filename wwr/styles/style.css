@@ -197,6 +197,55 @@ footer .social img {
 }
 
 
+/* For the Rivers page */
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px ;
+}
+.salmon-river{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-color: green;
+    color:rgb(17, 247, 255) ;
+    
+    
+}
+.gray-canyon{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: green;
+    margin: 50px;
+}
+.arizona{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    background-color: green;
+    color:rgb(17, 247, 255) ;
+    
+}
+.rivers-header{
+    text-align: center;
+}
+.salmon-img{
+    float: left;
+    width: 250px;
+    padding:5px ;
+}
+.gray-canyon-img{
+    float: left;
+    width: 250px;
+    padding:5px ;
+}
+.arizona-img{
+    float: left;
+    width: 200px;
+    padding:5px ;
+}
+.arizona-p, .salmon-p, .gray-canyon-p{
+    text-align: left;
+}
+
 
 
 
