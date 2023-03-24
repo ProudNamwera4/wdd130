@@ -10,7 +10,7 @@
 }
 .content {
     max-width: 1600px;
-    margin: 0 auto; 
+    margin: auto;
 }
 header{
     background-color: red;
@@ -48,9 +48,10 @@ nav {
     margin-top: 100px;
 }
 footer {
+
     background-color: red;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 30%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -65,8 +66,8 @@ text-decoration: none;
     padding-top: 10px;
 }
 .logo {
-    width: 80px;
-
+    width: 120px;
+    height: 100%;
 }
 .button-box {
     text-align: center;
@@ -75,8 +76,8 @@ body{
     background-color: blue;
     font-family: Acme,Macondo, "Fugaz One"  ;
     font-size: 22px;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 
 }
 #hero-msg{
@@ -91,6 +92,9 @@ body{
 #repair{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap:10% ;
+    grid-row-gap:10% ;
 }
 .roadside-assistance{
     grid-column: 1/2;
@@ -109,17 +113,28 @@ text-align: center;
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
+    
 }
 .repair-services-img, .breakdown-img{
-    width: 600px;
-    height:600px ;
+    width: 80%;
+    height:80% ;
     justify-content: center;
     justify-items: center;
-    margin: auto;
     text-align: center;
+    margin: auto;
 }
 .truck-img{
-    width: 600px;
+    width: 80%;
+    height:80% ;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+.mechanic-img{
+    width: 80%;
+    height:80% ;
     justify-content: center;
     justify-items: center;
     margin: auto;
@@ -132,18 +147,11 @@ h4{
 section{
     text-align: center;
 }
-.mechanic-img{
-    width: 500px;
-    height:600px ;
-    justify-content: center;
-    justify-items: center;
-    margin: auto;
-    text-align: center;
-}
+
 section p{
     color: blue;
     background-color: red;
-    margin: 10px;
+    margin: auto; 
 }
 
 
@@ -186,7 +194,6 @@ section p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
 
 
