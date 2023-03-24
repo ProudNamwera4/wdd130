@@ -151,22 +151,67 @@ section p{
 /* Page 2*/
 
 .standby-assistance-paragraph{
-width: 60%;
-margin: auto;
+    width: 60%;
+    margin: auto;
 }
+.container {
+    position: relative;
+    background-color: red;
+  }
 .two-agents-img{
-width: 20%;
-text-align: center;
-
+    width: 500px;
+    display: block;
+    text-align: center;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin: auto;
 }
 .standby-assistance{
-text-align: center;
-justify-content: center;
-justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 .standby-assistance{
     text-align: center;
 }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+
+  }
+  .container:hover .two-agents-img {
+    opacity: 0.3;
+  }
+  .container:hover .middle {
+    opacity: 1;
+  }
+  .text {
+    background-color: black;
+    color: red;
+    font-size: 16px;
+    padding: 16px 32px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+    
+  }
+
+
+
+
+
 
 
 /*Page 3 */
