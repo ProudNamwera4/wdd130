@@ -227,8 +227,9 @@ section p{
 }
 .engine-img{
     width: 30%;
-    height: 300px;
+    height: auto;
     float: left;
+    margin-right: 20px;
 }
 .repair-services-page{
     text-align: center;
